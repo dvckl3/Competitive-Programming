@@ -69,4 +69,19 @@ Một số lưu ý về việc gọi hàm `range` trong python
 
 
 
+# Các loại cấu trúc dữ liệu nâng cao 
+
+## Nodes
+Nodes là một trong những dạng cấu trúc dữ liệu căn bản bao gồm hai thành phần chính đó chính là data của nodes hiện tại và con trỏ chỉ đến các nodes khác, có thể là nodes kế tiếp hoặc nodes trước đó.
+
+![image](https://github.com/user-attachments/assets/a39091ba-49be-45da-bd65-26a0f171b373)
+
+Có 2 dạng cấu trúc dữ liệu khác được xây dựng dựa trên nodes đó là tree và linked list.
+
+Một orphaned nodes là những nodes mà không bị trỏ tới bởi các nodes khác hoặc chỉ có liên kết đến head node. 
+## Linked list
+Linked list là tập hợp các nodes được liên kết với nhau. Node sau chứa link đến node trước. Một node chứa data và liên kết đến node tiếp theo
+
 # Các thuật toán từ cơ bản đến nâng cao
+
+
