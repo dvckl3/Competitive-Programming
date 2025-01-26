@@ -1,3 +1,5 @@
+# https://oj.duong3982.com/problem/contest01_a
+
 import sys
 import math
 import bisect
@@ -30,7 +32,7 @@ mod=1000000007
 def main():
     import sys
     input = sys.stdin.read  
-    a, b = map(int, input().split()) 
+    a, b = mul()
 
     res = 1
     ok = False
